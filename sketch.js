@@ -28,6 +28,8 @@ function preload() {
 function setup() {
   createCanvas(320, 320);
   // Create the video
+  var timer = setTimeout(setup, 3000);
+  
   var constraints = {
 
     audio: false,
@@ -91,8 +93,3 @@ function gotResult(error, results) {
   // Classifiy again!
   classifyVideo();
 }
-function test() {
-  console.log(2);
-}
-
-setTimeout(test, 3000);   // 3秒後執行，輸出2
