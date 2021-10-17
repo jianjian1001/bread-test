@@ -12,7 +12,7 @@ This example uses p5 preload function to create the classifier
 // Classifier Variable
 let classifier;
 // Model URL
-let imageModelURL = 'https://jianjian1001.github.io/imageai2/';
+let imageModelURL = 'https://jianjian1001.github.io/bread-test/';
 
 // Video
 let video;
@@ -91,3 +91,8 @@ function gotResult(error, results) {
   // Classifiy again!
   classifyVideo();
 }
+function test() {
+  console.log(2);
+}
+
+setTimeout(test, 3000);   // 3秒後執行，輸出2
