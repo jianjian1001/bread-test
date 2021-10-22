@@ -42,13 +42,13 @@ function setup() {
 
       }
 
-    }   
+    }  
 
-    //video: {
+    /*video: {
 
-      //facingMode: "user"
+      facingMode: "user"
 
-    //}
+    }*/
 
   };
   
