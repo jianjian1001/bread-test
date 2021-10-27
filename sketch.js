@@ -12,7 +12,7 @@ This example uses p5 preload function to create the classifier
 // Classifier Variable
 let classifier;
 // Model URL
-let imageModelURL = 'https://jianjian1001.github.io/imageai2/';
+let imageModelURL = 'https://jianjian1001.github.io/bread-test/';
 
 const handleCharacteristicValueChanged = (event) => {
    console.log(event.target.value.getUint8(0) + '%');
